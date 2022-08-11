@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Création de la facture</title>
+</head>
+<body>
+
+<h1>création de la facture</h1>
+
+<form th:action="@{/invoise/create}" method="POST" th:object="${invoiseBaking}">
+
+    <p>customer name<input type="text" th:field="*{customerName}"/></p>
+    <div th:if="${#fields.hasErrors('customerName')}" th:errors="*{customerName}" style="Color:red"></div>
+
+    <p>order number<input type="text" th:field="*{orderNumber}"/></p>
+    <div th:if="${#fields.hasErrors('orderNumber')}" th:errors="*{orderNumber}" style="Color:red"></div>
+
+
+    <input type="submit" value="Create"/>
+</form>
+
+</body>
+</html>

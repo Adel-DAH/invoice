@@ -1,0 +1,12 @@
+com\formation\invoise\controller\InvoiseControllerInterface.class
+com\formation\invoise\service\number\InvoiseServiceNumber.class
+com\formation\invoise\service\prefixe\InvoiseServicePrefixe.class
+com\formation\invoise\repository\memory\InvoiseRepositoryMemory.class
+com\formation\invoise\repository\database\InvoiseRepositoryDataBase.class
+com\formation\invoise\repository\InvoiseRepositoryInterface.class
+com\formation\invoise\controller\scan\InvoiseControllerDouchette.class
+com\formation\invoise\App.class
+com\formation\invoise\controller\web\InvoiseControllerWeb.class
+com\formation\invoise\controller\keyboard\InvoiseControllerKeyBord.class
+com\formation\invoise\entity\Invoise.class
+com\formation\invoise\service\InvoiseServiceInterface.class
